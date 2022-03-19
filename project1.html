@@ -45,13 +45,12 @@ li a:hover {
         .img {
             background-image: url(0.png);
              background-size: cover;
-            border-radius: 50%;
-            height: 200px;
-            width: 160px;
-            height:165px;
+            border-radius: 100%;
+            width: 200px;
+            height:200px;
             position: relative;
              left: 40%;
-              top: 25%;
+              top: 40%;
         }
 
         h2:before,
@@ -94,11 +93,21 @@ li a:hover {
         }
         .small-education{
             background-color: rgb(165, 163, 163);
+            color: black;
     border-radius: 30px;
     padding-top: 30px;
 
-    
         }
+.small-Experience{
+    background-color:gray;
+    color:black;
+    border-radius: 30px;
+    padding-top: 30px;
+    margin: 10px;
+
+}
+
+
         h2:after {
             margin-left: 10px;
         }
@@ -113,11 +122,14 @@ li a:hover {
         }
         h1 {
             text-align: center;
+            font-size: large;
         }
 
         p {
             text-align: center;
+            font-size: larger;
         }
+    
         h2 {
             text-align: center;
         }
@@ -129,8 +141,6 @@ li a:hover {
 
         h2 {
             text-align: center;
-        
-
         }
 
 @media (max-width:900px){
@@ -163,8 +173,8 @@ li a:hover {
 
         .btn-primary {
     color:white;
-    background-color:rgb(192, 190, 190);
-    border-color:rgb(192, 191, 191);
+    background-color:black;
+    border-color:black;
         }
         
 
@@ -194,18 +204,20 @@ li a:hover {
         }
 
         footer {
-            padding: 10px;
+            padding: 20px;
             background-color: black;
             color: white;
 
         }
-        footer .col-lg-8{
-            text-align: right;
+        footer .col-lg-6{
+            text-align: center;
+    
         }
         a {
     color: #f8f9fa;
     text-decoration: none;
     background-color: transparent;
+    margin: 10px;
 }
     
     </style>
@@ -213,10 +225,9 @@ li a:hover {
 
 <body>
     <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a class="active" href="#Education">Education</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Experience">Experience</a></li>
       </ul>
 
     <header>
@@ -226,29 +237,29 @@ li a:hover {
             <div class="img">
             </div>
             <h1>Ghufran Almomani</h1>
-            <h1>Full Stack Developer</h1>
-            <p>Focus On The Positive And You Will Find Your Success</p>
+            <h1>Full Stack Web Developer</h1>
+            <p>Each One Of Us Has Needs we Have Not Had Until Now.Some Hope For A Better Life<br>Others Hope For A Stress Free Life,And So Once You Know Your Needs It Is Easy To Set Your Goals.<br>If You Do Not Recognize These Needs,Just Keep Your Emotions In The Hands Of The Things You Do Every Day.</p>
         </div>
         
         <div class="container education">
+        
         <h2>Education</h2>
-        <div class="row justify-content-between"> 
-
-            
+        <div class="row justify-content-between" id="Education"> 
+        
             <div class="col-lg-3 small-education">
-                <p>Orange Coding Acadmy<br>Aqaba<br>Feb 2022</p>
-                <button type="button" class="btn btn-primary">read more</button>
+                <p class="orange">Orange Coding Acadmy<br>Aqaba<br>Feb 2022</p>
+                
             </div>
 
             <div class="col-lg-3 small-education">
                 <p>University Of Jordan\Aqaba<br>English Language And Literature<br>2017-2021</p>
-                <button type="button" class="btn btn-primary">read more</button>
+        
             </div>
 
 
             <div class="col-lg-3 small-education">
                 <p>Alqasila Secandry School<br>Irbid<br>2015-2017</p>
-                <button type="button" class="btn btn-primary">read more</button>
+            
             </div>
 
         </div>
@@ -257,45 +268,64 @@ li a:hover {
         <div class="container-project">
         <h2>Project</h2>
         <div class="container">
-            <div class="row project">
-                <div class="col-lg-4 left"><img src="https://news.blr.com/app/uploads/sites/3/2019/10/Team-project.jpg" alt="photo"  height="75%"  width="100%">
-                    <button type="button" class="btn btn-primary photobutton">read more</button>
-                        <p>lorem ipsum.<br> Mar 2017</p>
-                
+            <div class="row project" id="Project">
+                <div class="col-lg-3 left"><img src="https://blogs.lse.ac.uk/management/files/2016/11/technology-785742_1920.jpg" alt="photo"  height="75%"  width="100%">
+                    <button type="button" class="btn btn-primary photobutton">Read More</button>
+                    <p>Mar 2022</p>
                 </div>
-                <div class="col-lg-4 right"><img src="https://s7280.pcdn.co/wp-content/uploads/2019/10/project-management-office.jpg.optimal.jpg" alt="photo" height="75%" width="100%">
-                    <button type="button" class="btn btn-primary  photobutton">read more</button>
-                    <p>Lorem ipsum<br> Feb 2022</p>
-                
+                <div class="col-lg-3 left"><img src="https://singularityhub.com/wp-content/uploads/2020/08/computer-code-software.jpg" alt="photo" height="75%" width="100%">
+                    <button type="button" class="btn btn-primary photobutton">Read More</button>
+                    <p>Feb 2023</p>
+                </div>
+                <div class="col-lg-3 left"><img src="https://www.nsha.org/wp-content/uploads/2017/06/computer-coding-600x600.jpg" alt="photo" height="75%" width="100%">
+                    <button type="button" class="btn btn-primary photobutton">Read More</button>
+                    <p>Jun 2024</p>
+                </div>
+                <div class="col-lg-3 left"><img src="https://static3.bigstockphoto.com/1/5/3/large1500/351480512.jpg" alt="photo" height="75%" width="100%">
+                    <button type="button" class="btn btn-primary photobutton">Read More</button>
+                    <p>Oct 2025</p>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="container Experience">
         <h2>Experience</h2>
-
-<p>High School English Teacher,Alqasila High School<br>
-
-    Assessed students strengths and weaknesses by administering and interpreting standardized tests.<br>
-    Promoted cutting-edge learning methods to encourage cooperation among students and meet their individual needs.<br>
-    Collaborated with peer staff members to evaluate and assess the effectiveness of Arts programs.<br>
-Feb 2020<br></p>
+        <div class="row justify-content-between" id="Experience"> 
+          
+                <div class="col-lg-4 small-Experience">
+                    <p class="teacher">High School English Teacher,Alqasila High School<br>Irbid<br>Feb2020-Jun2020</p>
+                    
+                </div>
+    
+                <div class="col-lg-4 small-Experience">
+                    <p>Form Of Federations<br>How To Create Media Campaigns<br>Empowering Women For Leadership Roles.<br>Dec2020-Mar2021</p>
+            
+                </div>
+              
+                </div>
+        </div>
+    </div>
+    
+    
     </header>
+
     <footer>
         <div class="container">
         <div class="row">
-
-
             <div class="col-lg-4">
                 <h3>CONTACT</h3>
                 <a href="almomanighufran@gmail.com">almomanighufran@gmail.com</a><br>
                 <a href="+96277893103">+96277893103</a><br>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-4">
                 <h3>Follow Me</h3>
                 <a href="https://github.com/Plmqaaz12223bq/project1.git"><span class="fa fa-github-square fa-2x"></span></a>
                 <a href="https://www.linkedin.com/in/ghufran-almomani-777b93232/"><span class="fa fa-linkedin fa-2x"></span></a>
+            </div>
+            <div class="col-lg-4">
+                <h3>Quote</h3>
+                <p>focus On The Positive And You Will Find Your Succes.</p>
             </div>
         </div>
     </div>
