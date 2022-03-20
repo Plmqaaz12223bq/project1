@@ -13,4 +13,6 @@ Skills:  HTML / CSS
 https://miro.com/app/board/uXjVOGIrGLA=/?invite_link_id=434987463048
 ## portfolio Wirefram
 https://miro.com/app/board/uXjVODjX_nU=/?invite_link_id=360244909681
+## linkedin
+https://www.linkedin.com/in/ghufran-almomani-777b93232/
 
